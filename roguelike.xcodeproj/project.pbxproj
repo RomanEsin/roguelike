@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F135924F27992025000C30E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135924E27992025000C30E3 /* main.cpp */; };
+		F135925827992181000C30E3 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135925627992181000C30E3 /* Game.cpp */; };
+		F135925B279921BD000C30E3 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1359259279921BD000C30E3 /* Map.cpp */; };
+		F1359262279928B1000C30E3 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1359260279928B1000C30E3 /* GameObject.cpp */; };
+		F13592662799290D000C30E3 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13592642799290D000C30E3 /* Character.cpp */; };
+		F135926B279929C8000C30E3 /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1359269279929C8000C30E3 /* Knight.cpp */; };
+		F135926F279929FD000C30E3 /* Princess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135926D279929FD000C30E3 /* Princess.cpp */; };
+		F135927327992A86000C30E3 /* Zombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135927127992A86000C30E3 /* Zombie.cpp */; };
+		F135927727992AE8000C30E3 /* Dragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135927527992AE8000C30E3 /* Dragon.cpp */; };
+		F135927B27992B11000C30E3 /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135927927992B11000C30E3 /* Projectile.cpp */; };
+		F135927F27992BB3000C30E3 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135927D27992BB3000C30E3 /* Wall.cpp */; };
+		F135928427992CB3000C30E3 /* Floor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135928227992CB3000C30E3 /* Floor.cpp */; };
+		F135928927992DD9000C30E3 /* AidKit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F135928727992DD9000C30E3 /* AidKit.cpp */; };
+		F1F4A166279D5AEA000BAA32 /* config.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F135928527992D21000C30E3 /* config.txt */; };
+		F1F4A167279D5AEA000BAA32 /* map.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F135928B27992FD6000C30E3 /* map.txt */; };
+		F1F4A168279D5AEA000BAA32 /* map1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F135928A27992FD6000C30E3 /* map1.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F135924927992025000C30E3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F1F4A165279D5ADC000BAA32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F1F4A166279D5AEA000BAA32 /* config.txt in CopyFiles */,
+				F1F4A167279D5AEA000BAA32 /* map.txt in CopyFiles */,
+				F1F4A168279D5AEA000BAA32 /* map1.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F135924B27992025000C30E3 /* roguelike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = roguelike; sourceTree = BUILT_PRODUCTS_DIR; };
+		F135924E27992025000C30E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F135925627992181000C30E3 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		F135925727992181000C30E3 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		F1359259279921BD000C30E3 /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		F135925A279921BD000C30E3 /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		F1359260279928B1000C30E3 /* GameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		F1359261279928B1000C30E3 /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
+		F13592642799290D000C30E3 /* Character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		F13592652799290D000C30E3 /* Character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		F1359269279929C8000C30E3 /* Knight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knight.cpp; sourceTree = "<group>"; };
+		F135926A279929C8000C30E3 /* Knight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Knight.hpp; sourceTree = "<group>"; };
+		F135926D279929FD000C30E3 /* Princess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Princess.cpp; sourceTree = "<group>"; };
+		F135926E279929FD000C30E3 /* Princess.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Princess.hpp; sourceTree = "<group>"; };
+		F135927127992A86000C30E3 /* Zombie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Zombie.cpp; sourceTree = "<group>"; };
+		F135927227992A86000C30E3 /* Zombie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Zombie.hpp; sourceTree = "<group>"; };
+		F135927527992AE8000C30E3 /* Dragon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dragon.cpp; sourceTree = "<group>"; };
+		F135927627992AE8000C30E3 /* Dragon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dragon.hpp; sourceTree = "<group>"; };
+		F135927927992B11000C30E3 /* Projectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		F135927A27992B11000C30E3 /* Projectile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Projectile.hpp; sourceTree = "<group>"; };
+		F135927D27992BB3000C30E3 /* Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wall.cpp; sourceTree = "<group>"; };
+		F135927E27992BB3000C30E3 /* Wall.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wall.hpp; sourceTree = "<group>"; };
+		F135928227992CB3000C30E3 /* Floor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Floor.cpp; sourceTree = "<group>"; };
+		F135928327992CB3000C30E3 /* Floor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Floor.hpp; sourceTree = "<group>"; };
+		F135928527992D21000C30E3 /* config.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.txt; sourceTree = "<group>"; };
+		F135928727992DD9000C30E3 /* AidKit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AidKit.cpp; sourceTree = "<group>"; };
+		F135928827992DD9000C30E3 /* AidKit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AidKit.hpp; sourceTree = "<group>"; };
+		F135928A27992FD6000C30E3 /* map1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = map1.txt; sourceTree = "<group>"; };
+		F135928B27992FD6000C30E3 /* map.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F135924827992025000C30E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F135924227992025000C30E3 = {
+			isa = PBXGroup;
+			children = (
+				F135924D27992025000C30E3 /* roguelike */,
+				F135924C27992025000C30E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F135924C27992025000C30E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F135924B27992025000C30E3 /* roguelike */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F135924D27992025000C30E3 /* roguelike */ = {
+			isa = PBXGroup;
+			children = (
+				F135925E2799289A000C30E3 /* Characters */,
+				F135925D27992201000C30E3 /* Map */,
+				F135925C279921FD000C30E3 /* Game */,
+				F135928527992D21000C30E3 /* config.txt */,
+				F135928B27992FD6000C30E3 /* map.txt */,
+				F135928A27992FD6000C30E3 /* map1.txt */,
+				F135924E27992025000C30E3 /* main.cpp */,
+			);
+			path = roguelike;
+			sourceTree = "<group>";
+		};
+		F135925C279921FD000C30E3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F135925627992181000C30E3 /* Game.cpp */,
+				F135925727992181000C30E3 /* Game.hpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		F135925D27992201000C30E3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F1359259279921BD000C30E3 /* Map.cpp */,
+				F135925A279921BD000C30E3 /* Map.hpp */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F135925E2799289A000C30E3 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				F135928627992DD0000C30E3 /* AidKit */,
+				F135928127992CA3000C30E3 /* Static */,
+				F135927427992ADF000C30E3 /* Dragon */,
+				F135927027992A6A000C30E3 /* Zombie */,
+				F135926C279929F1000C30E3 /* Princess */,
+				F1359268279929A0000C30E3 /* Knight */,
+				F135926727992998000C30E3 /* Base */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		F135925F279928A5000C30E3 /* GameObject */ = {
+			isa = PBXGroup;
+			children = (
+				F1359260279928B1000C30E3 /* GameObject.cpp */,
+				F1359261279928B1000C30E3 /* GameObject.hpp */,
+			);
+			path = GameObject;
+			sourceTree = "<group>";
+		};
+		F135926327992903000C30E3 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				F13592642799290D000C30E3 /* Character.cpp */,
+				F13592652799290D000C30E3 /* Character.hpp */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		F135926727992998000C30E3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F135926327992903000C30E3 /* Character */,
+				F135925F279928A5000C30E3 /* GameObject */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F1359268279929A0000C30E3 /* Knight */ = {
+			isa = PBXGroup;
+			children = (
+				F1359269279929C8000C30E3 /* Knight.cpp */,
+				F135926A279929C8000C30E3 /* Knight.hpp */,
+			);
+			path = Knight;
+			sourceTree = "<group>";
+		};
+		F135926C279929F1000C30E3 /* Princess */ = {
+			isa = PBXGroup;
+			children = (
+				F135926D279929FD000C30E3 /* Princess.cpp */,
+				F135926E279929FD000C30E3 /* Princess.hpp */,
+			);
+			path = Princess;
+			sourceTree = "<group>";
+		};
+		F135927027992A6A000C30E3 /* Zombie */ = {
+			isa = PBXGroup;
+			children = (
+				F135927127992A86000C30E3 /* Zombie.cpp */,
+				F135927227992A86000C30E3 /* Zombie.hpp */,
+			);
+			path = Zombie;
+			sourceTree = "<group>";
+		};
+		F135927427992ADF000C30E3 /* Dragon */ = {
+			isa = PBXGroup;
+			children = (
+				F135927827992B06000C30E3 /* Projectile */,
+				F135927527992AE8000C30E3 /* Dragon.cpp */,
+				F135927627992AE8000C30E3 /* Dragon.hpp */,
+			);
+			path = Dragon;
+			sourceTree = "<group>";
+		};
+		F135927827992B06000C30E3 /* Projectile */ = {
+			isa = PBXGroup;
+			children = (
+				F135927927992B11000C30E3 /* Projectile.cpp */,
+				F135927A27992B11000C30E3 /* Projectile.hpp */,
+			);
+			path = Projectile;
+			sourceTree = "<group>";
+		};
+		F135927C27992BAC000C30E3 /* Wall */ = {
+			isa = PBXGroup;
+			children = (
+				F135927D27992BB3000C30E3 /* Wall.cpp */,
+				F135927E27992BB3000C30E3 /* Wall.hpp */,
+			);
+			path = Wall;
+			sourceTree = "<group>";
+		};
+		F135928027992C9F000C30E3 /* Floor */ = {
+			isa = PBXGroup;
+			children = (
+				F135928227992CB3000C30E3 /* Floor.cpp */,
+				F135928327992CB3000C30E3 /* Floor.hpp */,
+			);
+			path = Floor;
+			sourceTree = "<group>";
+		};
+		F135928127992CA3000C30E3 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				F135928027992C9F000C30E3 /* Floor */,
+				F135927C27992BAC000C30E3 /* Wall */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		F135928627992DD0000C30E3 /* AidKit */ = {
+			isa = PBXGroup;
+			children = (
+				F135928727992DD9000C30E3 /* AidKit.cpp */,
+				F135928827992DD9000C30E3 /* AidKit.hpp */,
+			);
+			path = AidKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F135924A27992025000C30E3 /* roguelike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F135925227992025000C30E3 /* Build configuration list for PBXNativeTarget "roguelike" */;
+			buildPhases = (
+				F135924727992025000C30E3 /* Sources */,
+				F135924827992025000C30E3 /* Frameworks */,
+				F135924927992025000C30E3 /* CopyFiles */,
+				F1F4A165279D5ADC000BAA32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = roguelike;
+			productName = roguelike;
+			productReference = F135924B27992025000C30E3 /* roguelike */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F135924327992025000C30E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F135924A27992025000C30E3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = F135924627992025000C30E3 /* Build configuration list for PBXProject "roguelike" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F135924227992025000C30E3;
+			productRefGroup = F135924C27992025000C30E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F135924A27992025000C30E3 /* roguelike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F135924727992025000C30E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1359262279928B1000C30E3 /* GameObject.cpp in Sources */,
+				F135927327992A86000C30E3 /* Zombie.cpp in Sources */,
+				F135927F27992BB3000C30E3 /* Wall.cpp in Sources */,
+				F135927B27992B11000C30E3 /* Projectile.cpp in Sources */,
+				F135928427992CB3000C30E3 /* Floor.cpp in Sources */,
+				F135925B279921BD000C30E3 /* Map.cpp in Sources */,
+				F135926B279929C8000C30E3 /* Knight.cpp in Sources */,
+				F135926F279929FD000C30E3 /* Princess.cpp in Sources */,
+				F135928927992DD9000C30E3 /* AidKit.cpp in Sources */,
+				F135927727992AE8000C30E3 /* Dragon.cpp in Sources */,
+				F135924F27992025000C30E3 /* main.cpp in Sources */,
+				F13592662799290D000C30E3 /* Character.cpp in Sources */,
+				F135925827992181000C30E3 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F135925027992025000C30E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F135925127992025000C30E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F135925327992025000C30E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9K99K5JN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_LDFLAGS = "-lncurses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F135925427992025000C30E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9K99K5JN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_LDFLAGS = "-lncurses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F135924627992025000C30E3 /* Build configuration list for PBXProject "roguelike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F135925027992025000C30E3 /* Debug */,
+				F135925127992025000C30E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F135925227992025000C30E3 /* Build configuration list for PBXNativeTarget "roguelike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F135925327992025000C30E3 /* Debug */,
+				F135925427992025000C30E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F135924327992025000C30E3 /* Project object */;
+}
